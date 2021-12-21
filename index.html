@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NickPort | Nick Spanos</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/png" href="/images/favicon.ico"/>
+  <link rel="stylesheet" href="/css/font-awesome-color-brand.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/16f09725b0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class="navbar">
+  <div class="container">
+    <p id="logo">Nick<span>Port</span></p>
+    <img id="hamburger_menu" src="/images/menu.svg" alt="menu button">
+    <nav >
+      <img id="exit_menu" src="/images/exit.svg" alt="exit button">
+      <ul class="nav-links">
+        <li class="active"><a href="#home">Home </a> </li>
+        <li> <a href="#about">About Me</a> </li>
+        <li><a href="#portfolio">Portfolio</a> </li>
+        <li><a id="cont" href="#contact">Contact</a> </li>
+      </ul>
+    </nav>
+  </div>
+  </section>
+
+  
+  <section id="home" class="hero-sec">
+    <div class="container">
+      <div class="img-container">
+        <img src="/images/avatar.png" alt="avatar">
+      </div>
+      
+      <h1>Hello, I'm Nick Spanos.
+        I'm Front-End Developer
+      </h1>
+      <div class="hero-sec-btn">
+        <a href="/Nick Spanos CV.pdf" download rel="noopener noreferrer" target="_blank"><p> Check my CV</p></a>
+      </div>
+    </div>
+  </section>
+
+  <section  id="about" class="aboutme-sec">
+    <div class="container">
+      <h4 class="title"><a  >About Me</a></h4>
+      <div class="para-bio">
+       I am Nick 22 years
+old and my passion is to
+make beautiful websites
+and web apps.I ❤️ coffee and pasta , also I want to explore new technologies to create fancy <span>'things'</span>.In my free time I edit wedding and baptism videos. 📷 
+      </div>
+      <div class="skills">
+        <div class="hard-skills-container">
+          <h2>Hard-Skills</h2>
+          <div class="wrap-container">
+          <ul>
+            <li><i class="fab fa-html5 fa-3x html5"></i><P>HTML</P> </li>
+            <li><i class="fab fa-css3-alt fa-3x css3"></i><p>CSS</p> </li>
+            <li><i class="fab fa-js-square fa-3x "></i><P>JavaScript</P></li>
+            <li><i class="fab fa-react fa-3x react"></i><p>React </p></li>
+          </ul>
+        </div>
+      </div>
+
+        <div class="soft-skills-container">
+            <h2>Soft-Skills</h2>
+            <div class="wrap-container">
+            <ul>
+              <li>Quick Learner</li>
+              <li> Creativity</li>
+              <li>Problem Solving</li>
+              <li>Teamwork</li>
+          </ul>
+        </div>
+        </div>
+    </div>
+
+    </div>
+  </section>
+  <section  id="portfolio" class="portfolio-sec">
+    <h4 class="title"><a >Portfolio</a></h4>
+    <div class="container">
+
+      <div class="project-container">
+        <img class="project-pic" src="/images/soon.jpg"  alt="">
+        <h4 class="project-title">Project Title</h4>
+        <div id="open" data-pr="0" class="project-btn"><p>Learn More</p></div>
+      </div>
+
+      <div class="project-container">
+        <img class="project-pic" src="/images/soon.jpg"  alt="">
+        <h4 class="project-title">Project Title</h4>
+        <div id="open"  data-pr="1" class="project-btn"><p>Learn More</p></div>
+      </div>
+
+      <div class="project-container">
+        <img class="project-pic" src="/images/soon.jpg"  alt="">
+        <h4 class="project-title">Project Title</h4>
+        <div id="open"  data-pr="2" class="project-btn"><p>Learn More</p></div>
+      </div>
+
+      <div class="project-container">
+        <img class="project-pic" src="/images/soon.jpg"  alt="">
+        <h4 class="project-title">Project Title</h4>
+        <div id="open"  data-pr="3"  class="project-btn" ><p>Learn More</p></div>
+      </div>
+
+    </div>
+  </section>
+  <section  id="contact" class="contact-sec">
+    <h4 class="title"> <a > Contact</a></h4>
+    <div class="container">
+        <form id="form" action="/php/send_data.php" method="post">
+          <label for="name">Name :</label>
+          <input type="text" name="name" id="name">
+          <label for="email">Email :</label>
+          <input type="email" name="email"  id="email">
+          <label for="message">Message:</label>
+          <textarea  id="message" name="message" ></textarea>
+          <input type="submit" name="submit" value="Send Message">
+    </div>
+  </section>
+  <section class="footer-sec">
+    <div class="container">
+      <a href="https://github.com/Spanosnick"><i class="fab fa-github fa-2x github "></i></a>
+      <h5> Designed by Nick Spanos</h5>
+      <a href="www.linkedin.com/in/nick-spanos-01"><i class="fab fa-linkedin fa-2x linkedin"></i></a>
+    </div>
+  </section>
+
+
+<!---- MODALS ----------------------------------------->
+  <div class="modal-container" id="modal-contaniner pr1">
+    <div class="modal">
+      <h1>Title Modal 1</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium asperiores dolorem inventore maxime accusantium ex aliquid. Obcaecati ducimus reprehenderit dicta.</p>
+      <ul class="used-lang">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+      </ul>
+      <button id="close">Close Modal</button>
+    </div>
+  </div>
+
+  <div class="modal-container" id="modal-contaniner pr2">
+    <div class="modal">
+      <h1>Title Modal 2</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium asperiores dolorem inventore maxime accusantium ex aliquid. Obcaecati ducimus reprehenderit dicta.</p>
+      <ul class="used-lang">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+      </ul>
+      <button id="close">Close Modal</button>
+    </div>
+  </div>
+
+  <div class="modal-container" id="modal-contaniner pr3">
+    <div class="modal">
+      <h1>Title Modal 3</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium asperiores dolorem inventore maxime accusantium ex aliquid. Obcaecati ducimus reprehenderit dicta.</p>
+      <ul class="used-lang">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+      </ul>
+      <button id="close">Close Modal</button>
+    </div>
+  </div>
+
+  <div class="modal-container" id="modal-contaniner pr4">
+    <div class="modal">
+      <h1>Title Modal 4</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium asperiores dolorem inventore maxime accusantium ex aliquid. Obcaecati ducimus reprehenderit dicta.</p>
+      <ul class="used-lang">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+      </ul>
+      <button id="close">Close Modal</button>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="/js/index.js"></script>
+
+</body>
+
+</html>
