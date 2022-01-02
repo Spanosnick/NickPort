@@ -254,6 +254,7 @@ body a {
 }
 
 .portfolio-sec .container .project-container .project-pic {
+  border-radius: 2em;
   width: 80%;
   height: 50%;
 }
@@ -295,6 +296,7 @@ body a {
 }
 
 .contact-sec {
+  border-radius: 3em;
   background-color: lightblue;
   text-align: center;
   padding: 1em;
@@ -308,6 +310,8 @@ body a {
 }
 
 .contact-sec .container {
+  margin: auto;
+  width: 50%;
   text-align: left;
 }
 
@@ -415,7 +419,7 @@ body a {
 .modal {
   border-radius: 1em;
   margin: auto;
-  width: 90%;
+  width: 50%;
   background-color: white;
   text-align: center;
   -webkit-transition: opacity  0.5s ease;
@@ -438,6 +442,7 @@ body a {
 }
 
 .modal #close {
+  cursor: pointer;
   margin: auto;
   width: 25%;
   margin-bottom: 1em;

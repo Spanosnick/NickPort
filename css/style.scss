@@ -270,7 +270,8 @@ a{
 
 
         .project-pic{
-         
+        
+         border-radius: 2em;
           width: 80%;
           height: 50%;
         }
@@ -305,7 +306,7 @@ a{
 }
 
 .contact-sec{
- 
+ border-radius: 3em;
   background-color:lightblue;
   text-align: center;
   padding: 1em;
@@ -320,7 +321,8 @@ a{
   }
 
   .container{
-
+    margin: auto;
+      width: 50%;
     text-align: left;
 
     form{
@@ -415,15 +417,16 @@ transition: opacity  0.5s ease;
 .modal-container.show{
   pointer-events: auto;
   opacity: 1;
- 
+
 }
 
 
 
 .modal{
+  
   border-radius: 1em;
 margin: auto;
-  width: 90%;
+  width: 50%;
   background-color: white;
   text-align: center;
   transition: opacity  0.5s ease;
@@ -440,6 +443,7 @@ margin: auto;
     }
   }
   #close{
+    cursor: pointer;
     margin: auto;
     width: 25%;
     margin-bottom: 1em;
