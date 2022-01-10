@@ -168,19 +168,26 @@ body a {
 }
 
 .aboutme-sec .container .hard-skills-container ul {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   list-style: none;
+  margin: 2em;
 }
 
 .aboutme-sec .container .hard-skills-container ul li {
   margin: auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: 0 .5em;
+  margin-right: 0 .5em;
 }
 
 .aboutme-sec .container .hard-skills-container ul li p {
@@ -190,6 +197,14 @@ body a {
 
 .aboutme-sec .container .fa-react {
   color: #0b77cf;
+}
+
+.aboutme-sec .container .fa-database {
+  color: #050505;
+}
+
+.aboutme-sec .container .fa-php {
+  color: #052f52;
 }
 
 .aboutme-sec .container .fa-js-square {
@@ -254,6 +269,10 @@ body a {
 }
 
 .portfolio-sec .container .project-container .project-pic {
+  border: 1px solid black;
+  -webkit-box-shadow: 19px 18px 15px -10px #0a0a0a;
+          box-shadow: 19px 18px 15px -10px #0a0a0a;
+  border-radius: 1em;
   border-radius: 2em;
   width: 80%;
   height: 50%;
@@ -296,7 +315,6 @@ body a {
 }
 
 .contact-sec {
-  border-radius: 3em;
   background-color: lightblue;
   text-align: center;
   padding: 1em;
@@ -584,6 +602,8 @@ body a {
     }
   }
   .aboutme-sec .container .para-bio {
+    margin: auto;
+    width: 65%;
     line-height: 2em;
   }
   .aboutme-sec .container .para-bio span {
@@ -609,10 +629,11 @@ body a {
     width: 40%;
   }
   .aboutme-sec .container .skills .hard-skills-container ul {
+    margin: auto;
     display: block;
     padding-right: 1em;
-    -webkit-columns: 2;
-            columns: 2;
+    -webkit-columns: 3;
+            columns: 3;
   }
   .aboutme-sec .container .skills .soft-skills-container {
     line-height: 2.2em;
@@ -627,13 +648,16 @@ body a {
   }
 }
 
-@media screen and (min-width: 953px) {
+@media screen and (max-width: 953px) {
   .navbar #logo {
     padding-left: 1.2em;
   }
   .hero-sec .container .img-container {
     width: 70%;
     margin: auto;
+  }
+  .contact-sec .container {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -174,8 +174,8 @@ a{
     background: #0f8b2c94;
     border-radius:1.3em;
     box-shadow: 19px 18px 15px -10px #000000;
-    
     .wrap-container{
+     
       margin: auto;
     }
 
@@ -185,14 +185,19 @@ a{
     }
 
     ul{
+      display: flex;
      flex-wrap: wrap;
       margin: auto;
-      display: flex;
+      flex-direction: row;
       list-style: none;
+      margin: 2em;
+    
 
       li{
         margin: auto;
         box-sizing: border-box;
+        margin-left:0 .5em;
+        margin-right:0 .5em;
         p{
           font-weight: 700;
           font-size: 1.2em;
@@ -204,9 +209,17 @@ a{
   .fa-react{
     color: #0b77cf;
   }
+
+  .fa-database{
+    color: #050505;
+  }
+  .fa-php{
+    color: #052f52;
+  }
   
   .fa-js-square{
     color: rgb(238, 223, 8);
+    
   }
 
   .soft-skills-container{
@@ -265,12 +278,12 @@ a{
         padding: .5em;
         display: block;
         margin: auto;
-        
+
   
-
-
         .project-pic{
-        
+          border: 1px solid black;
+          box-shadow: 19px 18px 15px -10px #0a0a0a;
+          border-radius: 1em;
          border-radius: 2em;
           width: 80%;
           height: 50%;
@@ -306,7 +319,6 @@ a{
 }
 
 .contact-sec{
- border-radius: 3em;
   background-color:lightblue;
   text-align: center;
   padding: 1em;
@@ -322,7 +334,7 @@ a{
 
   .container{
     margin: auto;
-      width: 50%;
+    width: 50%;
     text-align: left;
 
     form{
@@ -540,6 +552,8 @@ margin: auto;
   .container{
    
     .para-bio{
+      margin: auto;
+      width: 65%;
       line-height: 2em;
       span{
         color:rgb(59, 32, 178);
@@ -563,10 +577,10 @@ margin: auto;
         width: 40%;
         
         ul{
-         
+         margin: auto;
           display: block;
          padding-right:1em ;
-          columns: 2;
+          columns: 3;
          
         }
       }
@@ -592,7 +606,7 @@ margin: auto;
 
 
 
-@media screen and (min-width: 953px) {
+@media screen and (max-width: 953px) {
 
   .navbar{
 
@@ -611,6 +625,14 @@ margin: auto;
       width: 70%;
       margin: auto;
     }
+  }
+}
+
+.contact-sec{
+
+  .container{
+
+    width: 100%;
   }
 }
 
