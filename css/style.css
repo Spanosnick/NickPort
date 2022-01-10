@@ -274,7 +274,7 @@ body a {
           box-shadow: 19px 18px 15px -10px #0a0a0a;
   border-radius: 1em;
   border-radius: 2em;
-  width: 80%;
+  width: 50%;
   height: 50%;
 }
 
@@ -444,25 +444,46 @@ body a {
   transition: opacity  0.5s ease;
 }
 
+.modal p {
+  padding: 0 1em;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.modal .link-check {
+  font-weight: 700;
+}
+
+.modal .link-check a {
+  text-decoration: underline;
+}
+
 .modal .used-lang {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  padding-left: .2em;
 }
 
 .modal .used-lang li {
-  margin: auto;
+  margin: .2em;
   display: inline-block;
   border-radius: 2em;
   padding: .5em;
   list-style: none;
   background-color: lightsalmon;
   color: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .modal #close {
   cursor: pointer;
   margin: auto;
-  width: 25%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   margin-bottom: 1em;
   font-size: .9em;
   padding: .6em;
@@ -624,9 +645,10 @@ body a {
             justify-content: space-between;
   }
   .aboutme-sec .container .skills .hard-skills-container {
-    margin: 0;
+    margin: auto;
     height: 300px;
-    width: 40%;
+    width: 45%;
+    padding-right: 1em;
   }
   .aboutme-sec .container .skills .hard-skills-container ul {
     margin: auto;
@@ -637,9 +659,10 @@ body a {
   }
   .aboutme-sec .container .skills .soft-skills-container {
     line-height: 2.2em;
-    margin: 0;
-    width: 40%;
+    margin: auto;
+    width: 45%;
     height: 300px;
+    padding-right: 1em;
   }
   .footer-sec .container {
     -webkit-box-pack: center;
