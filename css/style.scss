@@ -191,13 +191,12 @@ a{
       flex-direction: row;
       list-style: none;
       margin: 2em;
-    
+      box-sizing: border-box;
 
       li{
-        margin: auto;
-        box-sizing: border-box;
-        margin-left:0 .5em;
-        margin-right:0 .5em;
+        margin: .5em auto;
+        
+    
         p{
           font-weight: 700;
           font-size: 1.2em;
@@ -538,7 +537,7 @@ transition: opacity  0.5s ease;
 
             &:hover{
               background-color: var(--primary-color);
-              color: rgb(0, 0, 0);
+              color: rgb(255, 250, 250);
               
             
             }

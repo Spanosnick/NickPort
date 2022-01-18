@@ -180,14 +180,12 @@ body a {
           flex-direction: row;
   list-style: none;
   margin: 2em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .aboutme-sec .container .hard-skills-container ul li {
-  margin: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin-left: 0 .5em;
-  margin-right: 0 .5em;
+  margin: .5em auto;
 }
 
 .aboutme-sec .container .hard-skills-container ul li p {
@@ -550,7 +548,7 @@ body a {
   }
   .navbar .container nav ul li #cont:hover {
     background-color: var(--primary-color);
-    color: black;
+    color: snow;
   }
   .hero-sec-btn {
     -webkit-animation-duration: 2s;
