@@ -1,201 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NickPort | Nick Spanos</title>
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="icon" type="image/png" href="/images/favicon.ico"/>
-  <link rel="stylesheet" href="/css/font-awesome-color-brand.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-  <script src="https://kit.fontawesome.com/16f09725b0.js" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>ComingSoon - Bootstrap Coming Soon Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: ComingSoon
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/comingsoon-free-html-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
-  <section class="navbar">
-  <div class="container">
-    <a href="#home"><p id="logo">Nick<span>Port</span></p></a>
-    <img id="hamburger_menu" src="/images/menu.svg" alt="menu button">
-    <nav >
-      <img id="exit_menu" src="/images/exit.svg" alt="exit button">
-      <ul class="nav-links">
-        <li class="active"><a href="#home">Home </a> </li>
-        <li> <a href="#about">About Me</a> </li>
-        <li><a href="#portfolio">Portfolio</a> </li>
-        <li><a id="cont" href="#contact">Contact</a> </li>
-      </ul>
-    </nav>
-  </div>
-  </section>
 
-  
-  <section id="home" class="hero-sec">
-    <div class="container">
-      <div class="img-container">
-        <img src="/images/avatar.png" alt="avatar">
-      </div> 
-      
-      <h1>Hello, I am Nick Spanos.
-        I am Front-End Developer.
-      </h1>
-      <div class="hero-sec-btn">
-        <a href="/Nick Spanos CV.pdf" download rel="noopener noreferrer" target="_blank"><p> Check my CV</p></a>
-      </div> 
-    </div>
-  </section>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex flex-column align-items-center">
 
-  <section  id="about" class="aboutme-sec">
-    <div class="container">
-      <h4 class="title"><a  >About Me</a></h4>
-      <div class="para-bio">
-       My name is Nick,I live in Greece  and I am 22 years
-old , my passion is to
-make beautiful websites
-and web apps.I ❤️ coffee and pasta , also I want  to explore new technologies to create fancy <span>'things'</span>.In my free time I edit videos 📷 and go for running in the beach 🏃  
-      </div>
-      <div class="skills">
-
-        <div class="hard-skills-container">
-          <h2>Hard-Skills</h2>
-          <div class="wrap-container">
-          <ul>
-            <li><i class="fab fa-html5 fa-3x html5"></i><P>HTML</P> </li>
-            <li><i class="fab fa-php fa-3x php"></i><p>PHP </p></li>
-            <li><i class="fab fa-js-square fa-3x "></i><P>JavaScript</P></li>
-            <li><i class="fab fa-react fa-3x react"></i><p>React </p></li>
-            <li><i class="fab fa-css3-alt fa-3x css3"></i><p>CSS</p> </li>
-            <li><i class="fab fa-wordpress fa-3x wordpress "></i><p>WordPress </p></li>
-           
-          </ul>
+      <h1>ComingSoon</h1>
+      <h2>We're working hard to improve our website and we'll ready to launch after</h2>
+      <div class="countdown d-flex justify-content-center" data-count="2023/12/5">
+        <div>
+          <h3>%d</h3>
+          <h4>Days</h4>
+        </div>
+        <div>
+          <h3>%h</h3>
+          <h4>Hours</h4>
+        </div>
+        <div>
+          <h3>%m</h3>
+          <h4>Minutes</h4>
+        </div>
+        <div>
+          <h3>%s</h3>
+          <h4>Seconds</h4>
         </div>
       </div>
 
-        <div class="soft-skills-container">
-            <h2>Soft-Skills</h2>
-            <div class="wrap-container">
-            <ul>
-              <li>Quick Learner</li>
-              <li> Creativity</li>
-              <li>Problem Solving</li>
-              <li>Teamwork</li>
-          </ul>
-        </div>
-        </div>
-    </div>
+      <div class="subscribe">
+        <h4>Subscribe now to get the latest updates!</h4>
+        <form action="forms/notify.php" method="post" role="form" class="php-email-form">
+          <div class="subscribe-form">
+            <input type="email" name="email"><input type="submit" value="Subscribe">
+          </div>
+          <div class="mt-2">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your notification request was sent. Thank you!</div>
+          </div>
+        </form>
+      </div>
+
+      <div class="social-links text-center">
+        <a href="https://github.com/Spanosnick" class="instagram"><i class="bi bi-github"></i></a>
+        <a href="www.linkedin.com/in/spanos-nikolaos" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
 
     </div>
-  </section>
-  <section  id="portfolio" class="portfolio-sec">
-    <h4 class="title"><a >Portfolio</a></h4>
+  </header><!-- End #header -->
+
+  <main id="main">
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
     <div class="container">
-      <div class="project-container">
-        <img class="project-pic" src="/images//projects_photos/thubnail_nickport.png"  alt="">
-        <h4 class="project-title">Portfolio Project </h4>
-        <div id="open" data-pr="0" class="project-btn"><p>Learn More</p></div>
-      </div>
-
-      <div class="project-container">
-        <img class="project-pic" src="/images/projects_photos/thubnail_guessgame.png"  alt="">
-        <h4 class="project-title">Guess Game</h4>
-        <div id="open"  data-pr="1" class="project-btn"><p>Learn More</p></div>
-      </div>
-
-      <div class="project-container">
-        <img class="project-pic" src="/images/projects_photos/thubnail_landingpage.png"  alt="">
-        <h4 class="project-title">Landing Page</h4>
-        <div id="open"  data-pr="2" class="project-btn"><p>Learn More</p></div>
-      </div>
-
-      <div class="project-container">
-        <img class="project-pic" src="/images/projects_photos/thubnail_todolist.png"  alt="">
-        <h4 class="project-title">React Note App</h4>
-        <div   id="open"   data-pr="3"  class="project-btn" ><p>Learn More</p></div>
+      <div class="copyright">
+        &copy; Copyright <strong><span id="year">ComingSoon</span></strong>. All Rights Reserved
       </div>
 
     </div>
-  </section>
-  <section  id="contact" class="contact-sec">
-    <h4 class="title"> <a > Contact</a></h4>
-    <div class="container">
-        <form id="form" action="/php/send_data.php" method="post">
-          <label for="name">Name :</label>
-          <input type="text" name="name" id="name">
-          <label for="email">Email :</label>
-          <input type="email" name="email"  id="email">
-          <label for="message">Message:</label>
-          <textarea  id="message" name="message" ></textarea>
-          <input type="submit" name="submit" value="Send Message">
-    </div>
-  </section>
-  <section class="footer-sec">
-    <div class="container">
-      <a target="_blank" href="https://github.com/Spanosnick"><i class="fab fa-github fa-2x github "></i></a>
-      <h5> Designed by Nick Spanos</h5>
-      <a target="_blank" href="https://www.linkedin.com/in/spanos-nikolaos/"><i class="fab fa-linkedin fa-2x linkedin"></i></a>
-    </div>
-  </section>
+  </footer><!-- End #footer -->
 
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-<!---- MODALS ----------------------------------------->
-  <div class="modal-container" id="modal-contaniner pr1">
-    <div class="modal">
-      <h1>Portfolio Project</h1>
-      <p>This is my First portfolio project from 0.My design options is not very good but i try with train to be better on design section</p>
-     
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-      <ul class="used-lang">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JAVASCRIPT</li>
-      </ul>
-      <div id="close">Close Modal</div>
-    </div>
-  </div>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
-  <div class="modal-container" id="modal-contaniner pr2">
-    <div class="modal">
-      <h1>Title Modal 2</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium asperiores dolorem inventore maxime accusantium ex aliquid. Obcaecati ducimus reprehenderit dicta.</p>
-      <p class="link-check">Check the project <a  target="_blank" href="../projects/Guess-Color/">here</a></p>
-      <ul class="used-lang">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JAVASCRIPT</li>
-      </ul>
-      <div id="close">Close Modal</div>
-    </div>
-  </div>
-
-  <div class="modal-container" id="modal-contaniner pr3">
-    <div class="modal">
-      <h1>Title Modal 3</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium asperiores dolorem inventore maxime accusantium ex aliquid. Obcaecati ducimus reprehenderit dicta.</p>
-      <p class="link-check">Check the project <a target="_blank"  href="../projects/landing_page/">here</a></p>
-      <ul class="used-lang">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JAVASCRIPT</li>
-      </ul>
-      <div id="close">Close Modal</div>
-    </div>
-  </div>
-
-  <div class="modal-container" id="modal-contaniner pr4">
-    <div class="modal">
-      <h1>Title Modal 4</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium asperiores dolorem inventore maxime accusantium ex aliquid. Obcaecati ducimus reprehenderit dicta.</p>
-      <p class="link-check">Check the project <a target="_blank" href="../projects/to_do_app/">here</a></p>
-      <ul class="used-lang">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>React</li>
-      </ul>
-      <div  id="close">Close Modal</div>
-    </div>
-  </div>
-
-
-  <script src="/js/index.js"></script>
+<script>
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
 
 </body>
 
