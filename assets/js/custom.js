@@ -201,8 +201,9 @@
                     speed: 200,
                     loop: true,
                     strings: [
-                        'Designer',
-                        'Developer'
+                        'Full Stack Developer',
+                        'Backend',
+                        'Frontend ',
                     ],
                     breakLines: false
                 });
@@ -300,3 +301,19 @@
 
 
 })(jQuery);
+
+
+function sendForm(e){
+    e.preventDefault();
+
+    const array = $('form').serializeArray();
+    $.ajax({
+        url: 'contact.php',
+        type: 'POST',
+        data: array,
+        success:function(){
+            alert("Το μήνυμα σου στάλθηκε. Θα επικοινωνήσουμε μαζί σου το συντομότερο δυνατό!");
+            document.getElementById("contact-form").reset();
+        }
+    });
+}

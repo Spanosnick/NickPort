@@ -84,6 +84,12 @@ Primary use:    pxdraft
   -ms-flex-pack: justify;
       justify-content: space-between;
 }
+
+.navbar-brand  img{
+  max-height: 100px;
+    max-width: 300px;
+}
+
 @media (max-width: 991px) {
   .header-top-fixed > .container {
     max-width: 100%;

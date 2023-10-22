@@ -25,8 +25,9 @@
         <!-- Brand -->
         <div class="logo">
             <a class="navbar-brand" href="#">
-                <img class="logo-light" title="" alt="" src="assets/img/logo-light.svg">
+                <img class="logo-light" title="" alt="" src="assets/img/logo-light.png">
             </a>
+
         </div>
         <!-- / -->
         <ul class="main-menu">
@@ -76,16 +77,19 @@
                 <div class="col-lg-6">
                     <div class="hs-text-box">
                         <h6><span>Nick Spanos</span></h6>
-                        <h1>Hay! I’m Nick</h1>
-                        <h2>I'm a <span id="type-it"></span></h2>
-                        <p class="text">Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all
-                            exercise blessing. Indulgence way everything joy alteration boisterous the attachment.</p>
+                        <h1>Hey! I’m Nick</h1>
+                        <h2>A <span id="type-it"></span></h2>
+                        <p class="text">Exploring PHP, React, and React Native. A tech enthusiast eager to innovate and
+                            create.</p>
                         <div class="btn-bar d-flex align-items-sm-center flex-column flex-sm-row">
                             <a class="px-btn" href="#"><span>Get in touch</span> <i class="bi-arrow-right"></i> </a>
                             <div class="social-icon ps-sm-4 pt-4 pt-sm-0 d-flex justify-content-center justify-content-sm-start">
-                                <a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a>
-                                <a class="linkedin m-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="facebook" href="https://www.facebook.com/nickspanos55"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                <a class="dribbble" href="https://github.com/Spanosnick"><i
+                                            class="fab fa-github"></i></a>
+                                <a class="linkedin m-0" href="https://www.linkedin.com/in/spanos-nikolaos/"><i
+                                            class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -147,29 +151,23 @@
                 <div class="col-lg-6 col-xl-5 px-lg-5">
                     <div class="about-text">
                         <div class="section-heading">
-                            <h6><span>ABOUT us</span></h6>
-                            <h2>I AM AVAILABLE FOR <span>UI UX DESIGN</span> PROJECTS</h2>
+                            <h6><span>ABOUT ME</span></h6>
+                            <h2>SOME <span>INSIGHTS  </span> ABOUT ME!</h2>
                         </div>
-                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
-                            interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are
-                            also reproduced in their exact original form, accompanied by English versions from the 1914
-                            translation by H. Rackham.</p>
-                        <div class="review-box">
-                            <div class="r-box">
-                                <h3>280<span>+</span></h3>
-                                <label>Google Review </label>
-                            </div>
-                            <div class="r-box">
-                                <h3>15<span>+</span></h3>
-                                <label>Years Experience</label>
-                            </div>
-                            <div class="r-box">
-                                <h3>49<span>+</span></h3>
-                                <label>Awward Winning</label>
-                            </div>
-                        </div>
+                        <p>My name is Nick I am 24 years
+                            old and my passion is to
+                            create beautiful websites
+                            and web apps.</p>
+
+                        <p>After immersing myself in the world of programming for the past 1.5 years,
+                            I've made a profound realization. I've discovered a deep-seated love for creating and
+                            developing designs that seamlessly blend form and function. It's the artistry of web and
+                            mobile interfaces that truly captivates me </p>
+
+
                         <div class="btn-bar">
-                            <a class="px-btn" href="#"><span>Get in touch</span> <i class="bi-arrow-right"></i> </a>
+                            <a class="px-btn" href="#contactus"><span>Get in touch</span> <i class="bi-arrow-right"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -286,7 +284,7 @@
     </section>
     <!-- End Section -->
     <!-- Section -->
-    <section class="section" id="services" data-scroll-index="3">
+    <section class="section d-none" id="services" data-scroll-index="3">
         <div class="container">
             <div class="section-heading">
                 <h6><span> SERVICES</span></h6>
@@ -387,20 +385,18 @@
                             <div class="col-md-4 col-lg-3">
                                 <div class="ex-left">
                                     <h4>Front-end Developer</h4>
-                                    <span>WeLab | Remote</span>
-                                    <p>Jan 2019 - Present</p>
+                                    <span>TechIns | Hybrid</span>
+                                    <p>Feb 2022 - Present</p>
                                     <label>Full time</label>
                                 </div>
                             </div>
                             <div class="col-md-8 col-lg-9">
                                 <div class="ex-right">
-                                    <h5>About Company</h5>
-                                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+                                    <h5>About TechIns</h5>
+                                    <p class="m-0">TechIns was a big 'step up' as my career path. I'm passionate about our
+                                        mission and dedicated to our shared goals, and I'm eager to drive our team's
+                                        development efforts to new heights. Together, we'll continue to innovate, create
+                                        outstanding solutions, and set new benchmarks for excellence.</p>
                                 </div>
                             </div>
                         </div>
@@ -411,46 +407,19 @@
                         <div class="row gy-4">
                             <div class="col-md-4 col-lg-3">
                                 <div class="ex-left">
-                                    <h4>Front-end Developer</h4>
-                                    <span>WeLab | Remote</span>
-                                    <p>Jan 2019 - Present</p>
-                                    <label>Full time</label>
+                                    <h4>WordPress Developer</h4>
+                                    <span>Pontemedia| In House </span>
+                                    <p>Jul 2021 - Jan 2022</p>
+                                    <label>Internship</label>
                                 </div>
                             </div>
                             <div class="col-md-8 col-lg-9">
                                 <div class="ex-right">
-                                    <h5>About Company</h5>
-                                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="ex-box">
-                        <div class="row gy-4">
-                            <div class="col-md-4 col-lg-3">
-                                <div class="ex-left">
-                                    <h4>Front-end Developer</h4>
-                                    <span>WeLab | Remote</span>
-                                    <p>Jan 2019 - Present</p>
-                                    <label>Full time</label>
-                                </div>
-                            </div>
-                            <div class="col-md-8 col-lg-9">
-                                <div class="ex-right">
-                                    <h5>About Company</h5>
-                                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur
-                                        adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+                                    <h5>About <b> Pontemedia </b></h5>
+                                    <p class="m-0">The Internship at Pontemedia was my first experience as a developer
+                                        and I learn about
+                                        WordPress (CMS), WooCommerce, and SEO of a website. It was a wonderful
+                                        experience to work with such a great and helpful team.</p>
                                 </div>
                             </div>
                         </div>
@@ -460,73 +429,7 @@
         </div>
     </section>
     <!-- End Section -->
-    <!-- Section -->
-    <section class="section effect-section pb-0">
-        <div class="effect-3">
-            <img src="assets/img/effect-3.svg" title="" alt="">
-        </div>
-        <div class="effect-4">
-            <img src="assets/img/effect-4.svg" title="" alt="">
-        </div>
-        <div class="container">
-            <div class="section-heading text-center">
-                <h6><span>TEstimonial</span></h6>
-                <h2>Over <span>8,000+</span> <br> PEOPLE TRUST ME</h2>
-            </div>
-            <div class="owl-carousel lightbox-gallery" data-items="1" data-nav-dots="true" data-lg-items="1"
-                 data-md-items="1" data-sm-items="1" data-xs-items="1" data-space="24" data-autoplay="false">
-                <div class="testimonial-box">
-                    <div class="t-user">
-                        <img src="assets/img/avatar-1.jpg" title="" alt="">
-                    </div>
-                    <div class="t-text">
-                        Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar
-                        consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a
-                        rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim
-                        consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor
-                        eu, elementum egestas leo. In hac habitasse platea dictumst.
-                    </div>
-                    <div class="t-person">
-                        <h6>Pamela Anders</h6>
-                        <span>Company Name</span>
-                    </div>
-                </div>
-                <div class="testimonial-box">
-                    <div class="t-user">
-                        <img src="assets/img/avatar-2.jpg" title="" alt="">
-                    </div>
-                    <div class="t-text">
-                        Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar
-                        consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a
-                        rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim
-                        consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor
-                        eu, elementum egestas leo. In hac habitasse platea dictumst.
-                    </div>
-                    <div class="t-person">
-                        <h6>Pamela Anders</h6>
-                        <span>Company Name</span>
-                    </div>
-                </div>
-                <div class="testimonial-box">
-                    <div class="t-user">
-                        <img src="assets/img/avatar-3.jpg" title="" alt="">
-                    </div>
-                    <div class="t-text">
-                        Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar
-                        consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a
-                        rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim
-                        consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor
-                        eu, elementum egestas leo. In hac habitasse platea dictumst.
-                    </div>
-                    <div class="t-person">
-                        <h6>Pamela Anders</h6>
-                        <span>Company Name</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Section -->
+
     <!-- Contact Section -->
     <section data-scroll-index="4" id="contactus" class="section contactus-section">
         <div class="container">
@@ -544,26 +447,26 @@
                 <div class="row g-0 contactus-form p-4 p-lg-5 flex-row-reverse">
                     <div class="col-lg-8">
                         <div class="contact-form">
-                            <form id="contact-form" method="POST">
+                            <form id="contact-form" class="php-email-form" method="POST">
                                 <div class="row gx-3 gy-4">
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label class="form-label">First name</label>
-                                            <input name="Name" id="name" placeholder="Name *" class="form-control"
+                                            <input name="name" id="name" placeholder="Name *" class="form-control"
                                                    type="text">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label class="form-label">Your Email</label>
-                                            <input name="Email" id="email" placeholder="Email *" class="form-control"
+                                            <input name="email" id="email" placeholder="Email *" class="form-control"
                                                    type="email">
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group">
                                             <label class="form-label">Subject</label>
-                                            <input name="Subject" id="subject" placeholder="Subject *"
+                                            <input name="subject" id="subject" placeholder="Subject *"
                                                    class="form-control" type="text">
                                         </div>
                                     </div>
@@ -576,7 +479,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <div class="send">
-                                            <button class="px-btn w-100" type="button" value="Send"> Send Message
+                                            <button class="px-btn w-100" type="button" onclick="sendForm(event)" value="Send"> Send Message
                                             </button>
                                         </div>
                                     </div>
@@ -590,18 +493,18 @@
                         </div>
                         <div class="contact-info">
                             <div class="contact-info-in">
-                                <label>write an e-mail</label>
-                                <a href="mailto:sample@domain.com">sample@domain.com</a>
+                                <label>Write an e-mail</label>
+                                <a href="mailto:spanosnicolaos@gmail.com">spanosnicolaos@gmail.com</a>
                             </div>
                             <div class="contact-info-in">
-                                <label>write an e-mail</label>
-                                <a href="tel:+044969696963636">+044 9696 9696 3636</a>
+                                <label>Call me</label>
+                                <a href="tel:+306980999416">+30 6980999416</a>
                             </div>
                         </div>
                         <div class="social-icon">
-                            <a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a>
-                            <a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="facebook" href="https://www.facebook.com/nickspanos55"><i class="fab fa-facebook-f"></i></a>
+                            <a class="dribbble" href="https://github.com/Spanosnick"><i class="fab fa-github"></i></a>
+                            <a class="linkedin" href="https://www.linkedin.com/in/spanos-nikolaos/"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
