@@ -46,11 +46,7 @@
                     Projects
                 </a>
             </li>
-            <li>
-                <a data-scroll-nav="3" href="#services">
-                    Services
-                </a>
-            </li>
+
             <li>
                 <a data-scroll-nav="4" href="#contactus">
                     Contact
@@ -59,7 +55,7 @@
         </ul>
         <!-- Top Menu -->
         <div class="d-flex">
-            <a class="px-btn d-none d-lg-inline-flex" href="#">Lets' Talk</a>
+            <a class="px-btn d-none d-lg-inline-flex" data-scroll-nav="4" href="#contactus">Lets' Talk</a>
             <button class="toggler-menu d-lg-none">
                 <span></span>
             </button>
@@ -82,7 +78,7 @@
                         <p class="text">Exploring PHP, React, and React Native. A tech enthusiast eager to innovate and
                             create.</p>
                         <div class="btn-bar d-flex align-items-sm-center flex-column flex-sm-row">
-                            <a class="px-btn" href="#"><span>Get in touch</span> <i class="bi-arrow-right"></i> </a>
+                            <a class="px-btn" data-scroll-nav="4" href="#contactus"><span>Get in touch</span> <i class="bi-arrow-right"></i> </a>
                             <div class="social-icon ps-sm-4 pt-4 pt-sm-0 d-flex justify-content-center justify-content-sm-start">
                                 <a class="facebook" href="https://www.facebook.com/nickspanos55"><i
                                             class="fab fa-facebook-f"></i></a>
@@ -145,7 +141,7 @@
             <div class="row align-items-center justify-content-center gy-5">
                 <div class="col-lg-6 col-xl-5">
                     <div class="about-banner text-center">
-                        <img src="assets/img/about-banner.png" title="" alt="">
+                        <img src="assets/img/about-banner.jpg" title="" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-5 px-lg-5">
@@ -489,7 +485,7 @@
                     </div>
                     <div class="col-lg-4 pe-md-5">
                         <div class="contact-banner d-none d-lg-block">
-                            <img src="assets/img/contact-us.png" title="" alt="">
+                            <img src="assets/img/contact-us.jpg" title="" alt="">
                         </div>
                         <div class="contact-info">
                             <div class="contact-info-in">

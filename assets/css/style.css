@@ -1018,6 +1018,11 @@ a {
   max-width: 550px;
   opacity: 0.85;
 }
+
+.contact-banner img, .about-banner img {
+  border-radius: 20px;
+}
+
 @media (min-width: 992px) {
   .contactus-section .contact-banner {
     margin-top: -200px;
