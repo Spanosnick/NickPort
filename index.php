@@ -141,7 +141,7 @@
             <div class="row align-items-center justify-content-center gy-5">
                 <div class="col-lg-6 col-xl-5">
                     <div class="about-banner text-center">
-                        <img src="assets/img/about-banner.jpg" title="" alt="">
+                        <img src="assets/img/about-banner2.jpg" title="" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-5 px-lg-5">
@@ -485,7 +485,7 @@
                     </div>
                     <div class="col-lg-4 pe-md-5">
                         <div class="contact-banner d-none d-lg-block">
-                            <img src="assets/img/contact-us.jpg" title="" alt="">
+                            <img src="assets/img/contact-us2.jpg" title="" alt="">
                         </div>
                         <div class="contact-info">
                             <div class="contact-info-in">
