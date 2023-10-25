@@ -76,7 +76,7 @@
                         <h1>Hey! I’m Nick</h1>
                         <h2>A <span id="type-it"></span></h2>
                         <p class="text">Exploring PHP, React, and React Native. A tech enthusiast eager to innovate and
-                            create!</p>
+                            create !!</p>
                         <div class="btn-bar d-flex align-items-sm-center flex-column flex-sm-row">
                             <a class="px-btn" data-scroll-nav="4" href="#contactus"><span>Get in touch</span> <i class="bi-arrow-right"></i> </a>
                             <div class="social-icon ps-sm-4 pt-4 pt-sm-0 d-flex justify-content-center justify-content-sm-start">
