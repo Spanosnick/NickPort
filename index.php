@@ -188,7 +188,7 @@
                 <div class="project-box">
                     <div class="project-media">
                         <img src="assets/img/guessColor.jpg" title="" alt="">
-                        <a class="gallery-link" href="assets/img/guessColor.jpg"><i class="bi-plus"></i></a>
+
                     </div>
                     <div class="project-body">
                         <div class="text">
@@ -196,7 +196,7 @@
                             <span>Javascript  First Game</span>
                         </div>
                         <div class="link">
-                            <a class="p-link px_modal" href="guessColor"><i class="bi-arrow-right"></i> </a>
+                            <a class="p-link " href="guessColor"><i class="bi-arrow-right"></i> </a>
                         </div>
                     </div>
                 </div>
