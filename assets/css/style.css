@@ -750,6 +750,7 @@ a {
   border-radius: 8px;
 }
 .project-box .project-media img {
+  height: 250px;
   transition: ease all 0.35s;
   -webkit-transform: scale(1);
           transform: scale(1);
@@ -828,7 +829,7 @@ a {
   color: var(--px-white);
   font-size: 20px;
   border-radius: 50%;
-  border: 2px solid var(--px-black);
+
 }
 .project-box .project-body .link .p-link:hover {
   background: var(--px-black);

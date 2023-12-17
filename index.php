@@ -202,16 +202,16 @@
                 </div>
                 <div class="project-box">
                     <div class="project-media">
-                        <img src="assets/img/popup-project-2.jpg" title="" alt="">
-                        <a class="gallery-link" href="assets/img/popup-project-2.jpg"><i class="bi-plus"></i></a>
+                        <img src="assets/img/todoApp.jpg" title="" alt="">
+
                     </div>
                     <div class="project-body">
                         <div class="text">
-                            <h5>Website Design</h5>
-                            <span>Web Design, App Design</span>
+                            <h5>Todo App</h5>
+                            <span>First React  App</span>
                         </div>
                         <div class="link">
-                            <a class="p-link px_modal" href="#project_2"><i class="bi-arrow-right"></i> </a>
+                            <a class="p-link px_modal" href="todoApp"><i class="bi-arrow-right"></i> </a>
                         </div>
                     </div>
                 </div>
