@@ -10,7 +10,7 @@
     <meta name="keywords" content="Nick Spanos ,  Front end Developer">
     <meta name="description" content="Nick Spanos  Developer">
     <!-- title -->
-    <title>NickPort | Portfolio </title>
+    <title>NickPort  </title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <!-- theme css -->
