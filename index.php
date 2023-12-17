@@ -211,7 +211,7 @@
                             <span>First React  App</span>
                         </div>
                         <div class="link">
-                            <a class="p-link px_modal" href="todoApp"><i class="bi-arrow-right"></i> </a>
+                            <a class="p-link " href="todoApp"><i class="bi-arrow-right"></i> </a>
                         </div>
                     </div>
                 </div>
