@@ -187,16 +187,16 @@
                  data-autoplay="false">
                 <div class="project-box">
                     <div class="project-media">
-                        <img src="assets/img/popup-project-1.jpg" title="" alt="">
-                        <a class="gallery-link" href="assets/img/popup-project-1.jpg"><i class="bi-plus"></i></a>
+                        <img src="assets/img/guessColor.jpg" title="" alt="">
+                        <a class="gallery-link" href="assets/img/guessColor.jpg"><i class="bi-plus"></i></a>
                     </div>
                     <div class="project-body">
                         <div class="text">
-                            <h5>Website Design</h5>
-                            <span>Web Design, App Design</span>
+                            <h5>Guess Color</h5>
+                            <span>Javascript  First Game</span>
                         </div>
                         <div class="link">
-                            <a class="p-link px_modal" href="#project_1"><i class="bi-arrow-right"></i> </a>
+                            <a class="p-link px_modal" href="guessColor"><i class="bi-arrow-right"></i> </a>
                         </div>
                     </div>
                 </div>
@@ -215,66 +215,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="project-box">
-                    <div class="project-media">
-                        <img src="assets/img/popup-project-3.jpg" title="" alt="">
-                        <a class="gallery-link" href="assets/img/popup-project-3.jpg"><i class="bi-plus"></i></a>
-                    </div>
-                    <div class="project-body">
-                        <div class="text">
-                            <h5>Website Design</h5>
-                            <span>Web Design, App Design</span>
-                        </div>
-                        <div class="link">
-                            <a class="p-link px_modal" href="#project_3"><i class="bi-arrow-right"></i> </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-box">
-                    <div class="project-media">
-                        <img src="assets/img/popup-project-4.jpg" title="" alt="">
-                        <a class="gallery-link" href="assets/img/popup-project-4.jpg"><i class="bi-plus"></i></a>
-                    </div>
-                    <div class="project-body">
-                        <div class="text">
-                            <h5>Website Design</h5>
-                            <span>Web Design, App Design</span>
-                        </div>
-                        <div class="link">
-                            <a class="p-link px_modal" href="#project_4"><i class="bi-arrow-right"></i> </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-box">
-                    <div class="project-media">
-                        <img src="assets/img/popup-project-5.jpg" title="" alt="">
-                        <a class="gallery-link" href="assets/img/popup-project-5.jpg"><i class="bi-plus"></i></a>
-                    </div>
-                    <div class="project-body">
-                        <div class="text">
-                            <h5>Website Design</h5>
-                            <span>Web Design, App Design</span>
-                        </div>
-                        <div class="link">
-                            <a class="p-link px_modal" href="#project_5"><i class="bi-arrow-right"></i> </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-box">
-                    <div class="project-media">
-                        <img src="assets/img/popup-project-6.jpg" title="" alt="">
-                        <a class="gallery-link" href="assets/img/popup-project-6.jpg"><i class="bi-plus"></i></a>
-                    </div>
-                    <div class="project-body">
-                        <div class="text">
-                            <h5>Website Design</h5>
-                            <span>Web Design, App Design</span>
-                        </div>
-                        <div class="link">
-                            <a class="p-link px_modal" href="#project_6"><i class="bi-arrow-right"></i> </a>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
