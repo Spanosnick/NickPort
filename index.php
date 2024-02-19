@@ -721,7 +721,7 @@
 <script src="assets/vendor/appear/jquery.appear.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/one-page/scrollIt.min.js"></script>
-<script src="assets/js/custom.js"></script>
+<script src="assets/js/custom.js?v=1.5"></script>
 <!-- end -->
 </body>
 <!-- Body End -->

@@ -305,12 +305,27 @@
 
 function sendForm(e){
     e.preventDefault();
+    const  name = document.getElementById("name").value;
+    const  email = document.getElementById("email").value;
+    const  subject = document.getElementById("subject").value;
+    const  message = document.getElementById("message").value;
 
-    const array = $('form').serializeArray();
+    if (name == "" || email == "" ||  subject || message == ""){
+        alert("Παρακαλώ συμπληρώστε όλα τα πεδία");
+        return;
+    }
+
+
+
     $.ajax({
         url: 'contact.php',
         type: 'POST',
-        data: array,
+        data: {
+            name: array[0].value,
+            email: array[1].value,
+            message: array[2].value
+
+        },
         success:function(){
             alert("Το μήνυμα σου στάλθηκε. Θα επικοινωνήσουμε μαζί σου το συντομότερο δυνατό!");
             document.getElementById("contact-form").reset();
