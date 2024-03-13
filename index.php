@@ -15,6 +15,17 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <!-- theme css -->
     <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KXKJFX8HCQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-KXKJFX8HCQ');
+    </script>
+
 </head>
 <!-- Body Start -->
 
