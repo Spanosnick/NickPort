@@ -198,16 +198,15 @@
                  data-autoplay="false">
                 <div class="project-box">
                     <div class="project-media">
-                        <img src="assets/img/guessColor.jpg" title="" alt="">
-
+                        <img src="assets/img/podcast-project.jpg" title="" alt="">
                     </div>
                     <div class="project-body">
                         <div class="text">
-                            <h5>Guess Color</h5>
-                            <span>Javascript  First Game</span>
+                            <h5>Podcast Website</h5>
+                            <span>Developed a podcast website</span>
                         </div>
                         <div class="link">
-                            <a class="p-link " href="guessColor"><i class="bi-arrow-right"></i> </a>
+                            <a class="p-link " target="_blank" href="https://techtalkhub.gr/"><i class="bi-arrow-right"></i> </a>
                         </div>
                     </div>
                 </div>
