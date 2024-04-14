@@ -14,23 +14,52 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <!-- theme css -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style.css?v=1.5" rel="stylesheet">
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KXKJFX8HCQ"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
 
-        gtag('config', 'G-KXKJFX8HCQ');
+        if(localStorage.getItem('consentMode') === null){
+            gtag('consent', 'default', {
+                'ad_storage': 'denied',
+                'analytics_storage': 'denied',
+                'personalization_storage': 'denied',
+                'functionality_storage': 'denied',
+                'security_storage': 'denied',
+            });
+        } else {
+            gtag('consent', 'default', JSON.parse(localStorage.getItem('consentMode')));
+        }
     </script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'G-KXKJFX8HCQ');</script>
+    <!-- End Google Tag Manager -->
 
 </head>
 <!-- Body Start -->
 
 <body>
-<!-- Header -->
+<div id="cookie-consent-banner" class="cookie-consent-banner">
+    <h3>Cookie settings</h3>
+    <p>We use cookies to provide you with the best possible experience. They also allow us to analyze user behavior in order to constantly improve the website for you.</p>
+    <button id="btn-accept-all" class="cookie-consent-button btn-success">Accept All</button>
+    <button id="btn-accept-some" class="cookie-consent-button btn-outline">Accept Selection</button>
+    <button id="btn-reject-all" class="cookie-consent-button btn-grayscale">Reject All</button>
+    <div class="cookie-consent-options">
+        <label><input id="consent-necessary" type="checkbox" value="Necessary" checked disabled>Necessary</label>
+        <label><input id="consent-analytics" type="checkbox" value="Analytics" checked>Analytics</label>
+        <label><input id="consent-preferences" type="checkbox" value="Preferences" checked>Preferences</label>
+        <label><input id="consent-marketing" type="checkbox" value="Marketing">Marketing</label>
+    </div>
+</div>
 <div class="header-top-fixed one-page-nav">
     <div class="container">
         <!-- Brand -->
@@ -731,7 +760,7 @@
 <script src="assets/vendor/appear/jquery.appear.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/one-page/scrollIt.min.js"></script>
-<script src="assets/js/custom.js?v=1.5"></script>
+<script src="assets/js/custom.js?v=1.8"></script>
 <!-- end -->
 </body>
 <!-- Body End -->
