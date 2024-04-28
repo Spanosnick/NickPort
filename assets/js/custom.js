@@ -310,12 +310,11 @@ function sendForm(e){
     const  subject = document.getElementById("subject").value;
     const  message = document.getElementById("message").value;
 
-    if (name == "" || email == "" ||  subject || message == ""){
+    if (name.trim() == "" || email.trim() == "" ||  subject.trim() || message.trim() == ""){
         alert("Παρακαλώ συμπληρώστε όλα τα πεδία");
         return;
     }
-
-
+    $('#loader').removeClass('d-none');
 
     $.ajax({
         url: 'contact.php',
@@ -327,6 +326,7 @@ function sendForm(e){
 
         },
         success:function(){
+            $('#loader').addClass('d-none');
             alert("Το μήνυμα σου στάλθηκε. Θα επικοινωνήσουμε μαζί σου το συντομότερο δυνατό!");
             document.getElementById("contact-form").reset();
         }

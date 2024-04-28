@@ -455,7 +455,12 @@
                                     </div>
                                     <div class="col-md-12">
                                         <div class="send">
-                                            <button class="px-btn w-100" type="button" onclick="sendForm(event)" value="Send"> Send Message
+                                            <div class="text-center d-none" id="loader">
+                                                <div class="spinner-border " role="status">
+                                                </div>
+                                            </div>
+                                            <button class="px-btn w-100" type="button" onclick="sendForm(event)"
+                                                    value="Send"> Send Message
                                             </button>
                                         </div>
                                     </div>
@@ -760,7 +765,7 @@
 <script src="assets/vendor/appear/jquery.appear.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/one-page/scrollIt.min.js"></script>
-<script src="assets/js/custom.js?v=1.8"></script>
+<script src="assets/js/custom.js?v=1.9"></script>
 <!-- end -->
 </body>
 <!-- Body End -->
