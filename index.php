@@ -227,6 +227,20 @@
                  data-autoplay="false">
                 <div class="project-box">
                     <div class="project-media">
+                        <img src="assets/img/dinopizza.jpg" title="" alt="">
+                    </div>
+                    <div class="project-body">
+                        <div class="text">
+                            <h5> Dino Pizza Website</h5>
+                            <span>This is the first my first project as freelancer</span>
+                        </div>
+                        <div class="link">
+                            <a class="p-link " target="_blank" href="https://dinopizza.gr/"><i class="bi-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <div class="project-media">
                         <img src="assets/img/podcast-project.jpg" title="" alt="">
                     </div>
                     <div class="project-body">
