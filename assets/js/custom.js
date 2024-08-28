@@ -165,7 +165,7 @@
     }
 
     /*--------------------
-          * Progress Bar 
+          * Progress Bar
       ----------------------*/
     WEA.ProgressBar = function() {
         $(".skill-bar .skill-bar-in").each(function() {
@@ -310,8 +310,8 @@ function sendForm(e){
     const  subject = document.getElementById("subject").value;
     const  message = document.getElementById("message").value;
 
-    if (name.trim() == "" || email.trim() == "" ||  subject.trim() || message.trim() == ""){
-        alert("Παρακαλώ συμπληρώστε όλα τα πεδία");
+    if (name.trim() === '' || email.trim() === '' ||  subject.trim() === '' || message.trim() === ''){
+        alert("All fields are required");
         return;
     }
     $('#loader').removeClass('d-none');
@@ -320,9 +320,10 @@ function sendForm(e){
         url: 'contact.php',
         type: 'POST',
         data: {
-            name: array[0].value,
-            email: array[1].value,
-            message: array[2].value
+            name: name,
+            email: email,
+            subject: subject,
+            message: message
 
         },
         success:function(){
