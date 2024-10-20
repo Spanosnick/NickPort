@@ -64,8 +64,8 @@
     <div class="container">
         <!-- Brand -->
         <div class="logo">
-            <a class="navbar-brand" href="#">
-                <img class="logo-light" title="" alt="" src="assets/img/logo-light.png">
+            <a class="navbar-brand" href="index.php">
+                <img class="logo-light" title="" alt="NickPort Logo" src="assets/img/logo-light.png">
             </a>
 
         </div>
@@ -118,7 +118,7 @@
                         <p class="text">Exploring PHP, React, and React Native. A tech enthusiast eager to innovate and
                             create !!</p>
                         <div class="btn-bar d-flex align-items-sm-center flex-column flex-sm-row">
-                            <a class="px-btn" data-scroll-nav="4" href="#contactus"><span>Get in touch</span> <i class="bi-arrow-right"></i> </a>
+                            <a class="px-btn"  href="SPANOS_NICK_CV.pdf" download><span>Download My CV</span> <i class="bi-arrow-right"></i> </a>
                             <div class="social-icon ps-sm-4 pt-4 pt-sm-0 d-flex justify-content-center justify-content-sm-start">
                                 <a class="facebook" href="https://www.facebook.com/nickspanos55"><i
                                             class="fab fa-facebook-f"></i></a>
@@ -132,7 +132,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="hs-banner">
-                        <img src="assets/img/home-banner.png" title="" alt="">
+                        <img src="assets/img/home-banner.png" title="" alt="Nick Spanos ">
                     </div>
                 </div>
             </div>
@@ -140,30 +140,30 @@
     </section>
     <!-- End Home Section -->
     <!-- Section -->
-    <div class="py-3 py-md-4 brand-section gray-bg">
+    <div class="py-3 py-md-4 brand-section gray-bg d-none">
         <div class="container">
             <div class="owl-carousel eq-height" data-items="5" data-nav-dots="false" data-lg-items="5" data-md-items="4"
                  data-sm-items="3" data-xs-items="2" data-space="15" data-autoplay="true">
                 <div class="p-3 text-center d-flex align-items-center justify-content-center w-100">
-                    <img src="assets/img/brand-1.svg" title="" alt="">
+                    <img src="assets/img/brand-1.svg" title="" alt="logo1">
                 </div>
                 <div class="p-3 text-center d-flex align-items-center justify-content-center w-100">
-                    <img src="assets/img/brand-2.svg" title="" alt="">
+                    <img src="assets/img/brand-2.svg" title="" alt="logo2">
                 </div>
                 <div class="p-3 text-center d-flex align-items-center justify-content-center w-100">
-                    <img src="assets/img/brand-1.svg" title="" alt="">
+                    <img src="assets/img/brand-1.svg" title="" alt="logo3">
                 </div>
                 <div class="p-3 text-center d-flex align-items-center justify-content-center w-100">
-                    <img src="assets/img/brand-2.svg" title="" alt="">
+                    <img src="assets/img/brand-2.svg" title="" alt="logo4">
                 </div>
                 <div class="p-3 text-center d-flex align-items-center justify-content-center w-100">
-                    <img src="assets/img/brand-1.svg" title="" alt="">
+                    <img src="assets/img/brand-1.svg" title="" alt="logo5">
                 </div>
                 <div class="p-3 text-center d-flex align-items-center justify-content-center w-100">
-                    <img src="assets/img/brand-2.svg" title="" alt="">
+                    <img src="assets/img/brand-2.svg" title="" alt="logo6">
                 </div>
                 <div class="p-3 text-center d-flex align-items-center justify-content-center w-100">
-                    <img src="assets/img/brand-1.svg" title="" alt="">
+                    <img src="assets/img/brand-1.svg" title="" alt="logo7">
                 </div>
             </div>
         </div>
@@ -173,15 +173,15 @@
     <section class="about-section section" id="about" data-scroll-index="1">
         <div class="container">
             <div class="effect-1">
-                <img src="assets/img/effect-1.svg" title="" alt="">
+                <img src="assets/img/effect-1.svg" title="" alt="circle 1">
             </div>
             <div class="effect-2">
-                <img src="assets/img/effect-2.svg" title="" alt="">
+                <img src="assets/img/effect-2.svg" title="" alt=" circle 2">
             </div>
             <div class="row align-items-center justify-content-center gy-5">
                 <div class="col-lg-6 col-xl-5">
                     <div class="about-banner text-center">
-                        <img src="assets/img/about-banner2.jpg" title="" alt="">
+                        <img src="assets/img/about-banner2.jpg" title="" alt="About Image">
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-5 px-lg-5">
@@ -227,7 +227,7 @@
                  data-autoplay="false">
                 <div class="project-box">
                     <div class="project-media">
-                        <img src="assets/img/dinopizza.jpg" title="" alt="">
+                        <img src="assets/img/dinopizza.jpg" title="" alt="Dino Pizza Project ">
                     </div>
                     <div class="project-body">
                         <div class="text">
@@ -241,7 +241,7 @@
                 </div>
                 <div class="project-box">
                     <div class="project-media">
-                        <img src="assets/img/podcast-project.jpg" title="" alt="">
+                        <img src="assets/img/podcast-project.jpg" title="" alt="Tech Talk Hub Project ">
                     </div>
                     <div class="project-body">
                         <div class="text">
@@ -255,7 +255,7 @@
                 </div>
                 <div class="project-box">
                     <div class="project-media">
-                        <img src="assets/img/todoApp.jpg" title="" alt="">
+                        <img src="assets/img/todoApp.jpg" title="" alt="Firs React App">
 
                     </div>
                     <div class="project-body">
@@ -376,7 +376,7 @@
                                 <div class="ex-left">
                                     <h4>Front-end Developer</h4>
                                     <span>TechIns | Hybrid</span>
-                                    <p>Feb 2022 - Present</p>
+                                    <p>Feb 2022 - Nov 2024</p>
                                     <label>Full time</label>
                                 </div>
                             </div>
@@ -398,7 +398,7 @@
                             <div class="col-md-4 col-lg-3">
                                 <div class="ex-left">
                                     <h4>WordPress Developer</h4>
-                                    <span>Pontemedia| In House </span>
+                                    <span>Pontemedia | In House </span>
                                     <p>Jul 2021 - Jan 2022</p>
                                     <label>Internship</label>
                                 </div>
@@ -484,7 +484,7 @@
                     </div>
                     <div class="col-lg-4 pe-md-5">
                         <div class="contact-banner d-none d-lg-block">
-                            <img src="assets/img/contact-us2.jpg" title="" alt="">
+                            <img src="assets/img/contact-us2.jpg" title="" alt="Contact Image">
                         </div>
                         <div class="contact-info">
                             <div class="contact-info-in">
@@ -510,263 +510,6 @@
 </main>
 <!-- End Main -->
 <!-- Snigle 1 -->
-<div id="project_1" class="px-modal mfp-hide">
-    <div class="single-project-box">
-        <div class="row align-items-start">
-            <div class="col-lg-7">
-                <img class="border" src="assets/img/popup-project-1.jpg" title="" alt="">
-            </div>
-            <div class="col-lg-5 pt-4 pt-lg-0">
-                <h4>Website Design for Marketing Agency Startup</h4>
-                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.</p>
-                <div class="about-content">
-                    <ul>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Type:</span>
-                            <span>Website</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Langages:</span>
-                            <span>PHP, HTML, CSS, JS</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Platform:</span>
-                            <span>WordPress</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Country:</span>
-                            <span>USA</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Live URL:</span>
-                            <span>www.example.com</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Snigle 1 -->
-<!-- Snigle 2 -->
-<div id="project_2" class="px-modal mfp-hide">
-    <div class="single-project-box">
-        <div class="row align-items-start">
-            <div class="col-lg-7">
-                <img class="border" src="assets/img/popup-project-1.jpg" title="" alt="">
-            </div>
-            <div class="col-lg-5 pt-4 pt-lg-0">
-                <h4>Website Design for Marketing Agency Startup</h4>
-                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.</p>
-                <div class="about-content">
-                    <ul>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Type:</span>
-                            <span>Website</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Langages:</span>
-                            <span>PHP, HTML, CSS, JS</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Platform:</span>
-                            <span>WordPress</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Country:</span>
-                            <span>USA</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Live URL:</span>
-                            <span>www.example.com</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Snigle 2 -->
-<!-- Snigle 3 -->
-<div id="project_3" class="px-modal mfp-hide">
-    <div class="single-project-box">
-        <div class="row align-items-start">
-            <div class="col-lg-7">
-                <img class="border" src="assets/img/popup-project-1.jpg" title="" alt="">
-            </div>
-            <div class="col-lg-5 pt-4 pt-lg-0">
-                <h4>Website Design for Marketing Agency Startup</h4>
-                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.</p>
-                <div class="about-content">
-                    <ul>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Type:</span>
-                            <span>Website</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Langages:</span>
-                            <span>PHP, HTML, CSS, JS</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Platform:</span>
-                            <span>WordPress</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Country:</span>
-                            <span>USA</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Live URL:</span>
-                            <span>www.example.com</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Snigle 3 -->
-<!-- Snigle 4 -->
-<div id="project_4" class="px-modal mfp-hide">
-    <div class="single-project-box">
-        <div class="row align-items-start">
-            <div class="col-lg-7">
-                <img class="border" src="assets/img/popup-project-1.jpg" title="" alt="">
-            </div>
-            <div class="col-lg-5 pt-4 pt-lg-0">
-                <h4>Website Design for Marketing Agency Startup</h4>
-                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.</p>
-                <div class="about-content">
-                    <ul>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Type:</span>
-                            <span>Website</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Langages:</span>
-                            <span>PHP, HTML, CSS, JS</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Platform:</span>
-                            <span>WordPress</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Country:</span>
-                            <span>USA</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Live URL:</span>
-                            <span>www.example.com</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Snigle 4 -->
-<!-- Snigle 5 -->
-<div id="project_5" class="px-modal mfp-hide">
-    <div class="single-project-box">
-        <div class="row align-items-start">
-            <div class="col-lg-7">
-                <img class="border" src="assets/img/popup-project-1.jpg" title="" alt="">
-            </div>
-            <div class="col-lg-5 pt-4 pt-lg-0">
-                <h4>Website Design for Marketing Agency Startup</h4>
-                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.</p>
-                <div class="about-content">
-                    <ul>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Type:</span>
-                            <span>Website</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Langages:</span>
-                            <span>PHP, HTML, CSS, JS</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Platform:</span>
-                            <span>WordPress</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Country:</span>
-                            <span>USA</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Live URL:</span>
-                            <span>www.example.com</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Snigle 5 -->
-<!-- Snigle 6 -->
-<div id="project_6" class="px-modal mfp-hide">
-    <div class="single-project-box">
-        <div class="row align-items-start">
-            <div class="col-lg-7">
-                <img class="border" src="assets/img/popup-project-1.jpg" title="" alt="">
-            </div>
-            <div class="col-lg-5 pt-4 pt-lg-0">
-                <h4>Website Design for Marketing Agency Startup</h4>
-                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.</p>
-                <div class="about-content">
-                    <ul>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Type:</span>
-                            <span>Website</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Langages:</span>
-                            <span>PHP, HTML, CSS, JS</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Platform:</span>
-                            <span>WordPress</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Country:</span>
-                            <span>USA</span>
-                        </li>
-                        <li class="d-flex">
-                            <span class="col-4 col-lg-3">Live URL:</span>
-                            <span>www.example.com</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Snigle 6 -->
 <!-- Footer -->
 <footer class="footer">
     <div class="container">
