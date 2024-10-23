@@ -227,6 +227,20 @@
                  data-autoplay="false">
                 <div class="project-box">
                     <div class="project-media">
+                        <img src="assets/img/quote-app.jpg" title="" alt="Quote Of The Day App ">
+                    </div>
+                    <div class="project-body">
+                        <div class="text">
+                            <h5>Quote Of The Day App</h5>
+                            <span>React App with quotes from API</span>
+                        </div>
+                        <div class="link">
+                            <a class="p-link " target="_blank" href="https://nickport.com/quotes/"><i class="bi-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <div class="project-media">
                         <img src="assets/img/dinopizza.jpg" title="" alt="Dino Pizza Project ">
                     </div>
                     <div class="project-body">
