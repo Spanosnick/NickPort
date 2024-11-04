@@ -118,7 +118,7 @@
                         <p class="text">Exploring PHP, React, and React Native. A tech enthusiast eager to innovate and
                             create !!</p>
                         <div class="btn-bar d-flex align-items-sm-center flex-column flex-sm-row">
-                            <a class="px-btn"  href="SPANOS_NICK_CV.pdf" download><span>Download My CV</span> <i class="bi-arrow-right"></i> </a>
+                            <a class="px-btn"  href="SPANOS_NICK.pdf" download><span>Download My CV</span> <i class="bi-arrow-right"></i> </a>
                             <div class="social-icon ps-sm-4 pt-4 pt-sm-0 d-flex justify-content-center justify-content-sm-start">
                                 <a class="facebook" href="https://www.facebook.com/nickspanos55"><i
                                             class="fab fa-facebook-f"></i></a>
