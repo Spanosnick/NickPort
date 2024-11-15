@@ -227,6 +227,21 @@
                  data-autoplay="false">
                 <div class="project-box">
                     <div class="project-media">
+                        <img src="assets/img/nutriscan.jpg" title="" alt="NutriScan">
+                    </div>
+                    <div class="project-body">
+                        <div class="text">
+                            <h5>NutriScan</h5>
+                            <span>My Personal Project with React</span>
+                        </div>
+                        <div class="link">
+                            <a class="p-link " target="_blank" href="https://nickport.com/nutriscan/"><i class="bi-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-box">
+                    <div class="project-media">
                         <img src="assets/img/quote-app.jpg" title="" alt="Quote Of The Day App ">
                     </div>
                     <div class="project-body">
