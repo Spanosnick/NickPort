@@ -227,11 +227,11 @@
                  data-autoplay="false">
                 <div class="project-box">
                     <div class="project-media">
-                        <img src="assets/img/nutriscan.jpg" title="" alt="NutriScan">
+                        <img src="assets/img/nutriscan.jpg" title="" alt="NutriScanner">
                     </div>
                     <div class="project-body">
                         <div class="text">
-                            <h5>NutriScan</h5>
+                            <h5>NutriScanner</h5>
                             <span>My Personal Project with React</span>
                         </div>
                         <div class="link">
