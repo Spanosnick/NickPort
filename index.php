@@ -231,11 +231,11 @@
                     </div>
                     <div class="project-body">
                         <div class="text">
-                            <h5>NutriScanner</h5>
+                            <h5>NutriScan</h5>
                             <span>My Personal Project with React</span>
                         </div>
                         <div class="link">
-                            <a class="p-link " target="_blank" href="https://nickport.com/nutriscan/"><i class="bi-arrow-right"></i> </a>
+                            <a class="p-link " target="_blank" href="https://nutriscan.nickport.com"><i class="bi-arrow-right"></i> </a>
                         </div>
                     </div>
                 </div>
@@ -368,7 +368,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="services-box" style="background-image: url(assets/img/service-04.jpg);">
+                    <div class="services-box" style="background-image: url(assets/img/service-03.jpg);">
                         <div class="services-body">
                             <div class="icon">
                                 <i class="bi-palette"></i>
