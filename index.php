@@ -1,20 +1,26 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
     <!-- metas -->
     <meta charset="utf-8">
     <meta name="author" content="pxdraft">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="Nick Spanos ,  Front end Developer">
-    <meta name="description" content="Nick Spanos  Developer">
+    <meta name="description" content="Portfolio of Nick Spanos, full stack developer. Projects, CV and contact.">
     <!-- title -->
-    <title>NickPort  </title>
+    <title>Nick Spanos | Full Stack Developer Portfolio</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <!-- theme css -->
-    <link href="assets/css/style.css?v=1.5" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.min.css">
+    <link href="assets/css/style.css?v=<?= filemtime(__DIR__ . '/assets/css/style.css') ?>" rel="stylesheet">
 
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -132,7 +138,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="hs-banner">
-                        <img src="assets/img/home-banner.png" title="" alt="Nick Spanos ">
+                        <img fetchpriority="high" src="assets/img/home-banner.png" title="" alt="Nick Spanos ">
                     </div>
                 </div>
             </div>
@@ -181,7 +187,7 @@
             <div class="row align-items-center justify-content-center gy-5">
                 <div class="col-lg-6 col-xl-5">
                     <div class="about-banner text-center">
-                        <img src="assets/img/about-banner2.jpg" title="" alt="About Image">
+                        <img loading="lazy" decoding="async" src="assets/img/about-banner2.jpg" title="" alt="About Image">
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-5 px-lg-5">
@@ -227,7 +233,7 @@
                  data-autoplay="false">
                 <div class="project-box">
                     <div class="project-media">
-                        <img src="assets/img/nutriscan.jpg" title="" alt="NutriScanner">
+                        <img loading="lazy" decoding="async" src="assets/img/nutriscan.jpg" title="" alt="NutriScanner">
                     </div>
                     <div class="project-body">
                         <div class="text">
@@ -242,7 +248,7 @@
 
                 <div class="project-box">
                     <div class="project-media">
-                        <img src="assets/img/quote-app.jpg" title="" alt="Quote Of The Day App ">
+                        <img loading="lazy" decoding="async" src="assets/img/quote-app.jpg" title="" alt="Quote Of The Day App ">
                     </div>
                     <div class="project-body">
                         <div class="text">
@@ -256,7 +262,7 @@
                 </div>
                 <div class="project-box">
                     <div class="project-media">
-                        <img src="assets/img/dinopizza.jpg" title="" alt="Dino Pizza Project ">
+                        <img loading="lazy" decoding="async" src="assets/img/dinopizza.jpg" title="" alt="Dino Pizza Project ">
                     </div>
                     <div class="project-body">
                         <div class="text">
@@ -270,7 +276,7 @@
                 </div>
                 <div class="project-box">
                     <div class="project-media">
-                        <img src="assets/img/podcast-project.jpg" title="" alt="Tech Talk Hub Project ">
+                        <img loading="lazy" decoding="async" src="assets/img/podcast-project.jpg" title="" alt="Tech Talk Hub Project ">
                     </div>
                     <div class="project-body">
                         <div class="text">
@@ -284,7 +290,7 @@
                 </div>
                 <div class="project-box">
                     <div class="project-media">
-                        <img src="assets/img/todoApp.jpg" title="" alt="Firs React App">
+                        <img loading="lazy" decoding="async" src="assets/img/todoApp.jpg" title="" alt="Firs React App">
 
                     </div>
                     <div class="project-body">
@@ -466,45 +472,48 @@
                 <div class="row g-0 contactus-form p-4 p-lg-5 flex-row-reverse">
                     <div class="col-lg-8">
                         <div class="contact-form">
-                            <form id="contact-form" class="php-email-form" method="POST">
+                            <form id="contact-form" class="php-email-form" method="POST" action="contact.php" novalidate>
+                                <div id="form-status" class="form-status d-none" role="status" aria-live="polite"></div>
                                 <div class="row gx-3 gy-4">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label class="form-label">First name</label>
+                                            <label class="form-label" for="name">Name</label>
                                             <input name="name" id="name" placeholder="Name *" class="form-control"
-                                                   type="text">
+                                                   type="text" required maxlength="100" autocomplete="name">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label class="form-label">Your Email</label>
+                                            <label class="form-label" for="email">Your Email</label>
                                             <input name="email" id="email" placeholder="Email *" class="form-control"
-                                                   type="email">
+                                                   type="email" required maxlength="254" autocomplete="email">
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group">
-                                            <label class="form-label">Subject</label>
+                                            <label class="form-label" for="subject">Subject</label>
                                             <input name="subject" id="subject" placeholder="Subject *"
-                                                   class="form-control" type="text">
+                                                   class="form-control" type="text" required maxlength="150">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <label class="form-label">Your message</label>
+                                            <label class="form-label" for="message">Your message</label>
                                             <textarea name="message" id="message" placeholder="Your message *" rows="4"
-                                                      class="form-control"></textarea>
+                                                      class="form-control" required minlength="10" maxlength="5000"></textarea>
                                         </div>
                                     </div>
+                                    <div class="hp-field" aria-hidden="true">
+                                        <label for="website">Leave this field empty</label>
+                                        <input type="text" name="website" id="website" tabindex="-1" autocomplete="off">
+                                    </div>
+                                    <input type="hidden" name="ts" id="form-ts" value="">
                                     <div class="col-md-12">
                                         <div class="send">
                                             <div class="text-center d-none" id="loader">
-                                                <div class="spinner-border " role="status">
-                                                </div>
+                                                <div class="spinner-border " role="status"></div>
                                             </div>
-                                            <button class="px-btn w-100" type="button" onclick="sendForm(event)"
-                                                    value="Send"> Send Message
-                                            </button>
+                                            <button class="px-btn w-100" type="submit" id="send-btn">Send Message</button>
                                         </div>
                                     </div>
                                 </div>
@@ -513,7 +522,7 @@
                     </div>
                     <div class="col-lg-4 pe-md-5">
                         <div class="contact-banner d-none d-lg-block">
-                            <img src="assets/img/contact-us2.jpg" title="" alt="Contact Image">
+                            <img loading="lazy" decoding="async" src="assets/img/contact-us2.jpg" title="" alt="Contact Image">
                         </div>
                         <div class="contact-info">
                             <div class="contact-info-in">
@@ -542,16 +551,15 @@
 <!-- Footer -->
 <footer class="footer">
     <div class="container">
-        <p class="m-0 text-center">© 2023 copyright all right reserved</p>
+        <p class="m-0 text-center">© <?= date('Y') ?> Nick Spanos. All rights reserved.</p>
     </div>
 </footer>
 <!-- End Footer -->
 <!-- End All Snigle Projects -->
-<script src="assets/js/jquery-3.6.4.js"></script>
-<script src="assets/vendor/appear/jquery.appear.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/one-page/scrollIt.min.js"></script>
-<script src="assets/js/custom.js?v=2.5"></script>
+<script src="assets/js/jquery-3.6.4.js" defer></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+<script src="assets/vendor/one-page/scrollIt.min.js" defer></script>
+<script src="assets/js/custom.js?v=<?= filemtime(__DIR__ . '/assets/js/custom.js') ?>" defer></script>
 <!-- end -->
 </body>
 <!-- Body End -->
