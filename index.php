@@ -190,7 +190,7 @@
                             <h6><span>ABOUT ME</span></h6>
                             <h2>SOME <span>INSIGHTS  </span> ABOUT ME!</h2>
                         </div>
-                        <p>My name is Nick I am 24 years
+                        <p>My name is Nick I am <?= (new DateTime('1999-07-09'))->diff(new DateTime('now'))->y ?> years
                             old and my passion is to
                             create beautiful websites
                             and web apps.</p>
