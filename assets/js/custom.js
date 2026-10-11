@@ -92,105 +92,6 @@
         }
     }
 
-    /* ---------------------------------------------- /*
-       * lightbox gallery
-      /* ---------------------------------------------- */
-    WEA.Gallery = function() {
-        if ($(".lightbox-gallery").exists() || $(".popup-youtube, .popup-vimeo, .popup-gmaps, .px_modal").exists()) {
-            loadScript(plugin_track + 'magnific/jquery.magnific-popup.min.js', function() {
-                if ($(".lightbox-gallery").exists()) {
-                    $('.lightbox-gallery').magnificPopup({
-                        delegate: '.gallery-link',
-                        type: 'image',
-                        tLoading: 'Loading image #%curr%...',
-                        mainClass: 'mfp-fade',
-                        fixedContentPos: true,
-                        closeBtnInside: false,
-                        gallery: {
-                            enabled: true,
-                            navigateByImgClick: true,
-                            preload: [0, 1] // Will preload 0 - before current, and 1 after WEA current image
-                        }
-                    });
-                }
-                if ($(".popup-youtube, .popup-vimeo, .popup-gmaps").exists()) {
-                    $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-                        disableOn: 700,
-                        type: 'iframe',
-                        mainClass: 'mfp-fade',
-                        removalDelay: 160,
-                        preloader: false,
-                        fixedContentPos: false
-                    });
-                }
-                if ($(".px_modal").exists()) {
-                    $('.px_modal').magnificPopup({
-                        type: 'inline',
-                        midClick: true,
-                        mainClass: 'mfp-fade'
-                    });
-                }
-            });
-        }
-    }
-
-    /*--------------------
-    * Masonry
-    ----------------------*/
-    WEA.masonry = function() {
-        var portfolioWork = $('.portfolio-content');
-        if ($(".portfolio-content").exists()) {
-            loadScript(plugin_track + 'isotope/isotope.pkgd.min.js', function() {
-                if ($(".portfolio-content").exists()) {
-                    $(portfolioWork).isotope({
-                        resizable: false,
-                        itemSelector: '.grid-item',
-                        layoutMode: 'masonry',
-                        filter: '*'
-                    });
-                    //Filtering items on portfolio.html
-                    var portfolioFilter = $('.filter li');
-                    // filter items on button click
-                    $(portfolioFilter).on('click', function() {
-                        var filterValue = $(this).attr('data-filter');
-                        portfolioWork.isotope({ filter: filterValue });
-                    });
-                    //Add/remove class on filter list
-                    $(portfolioFilter).on('click', function() {
-                        $(this).addClass('active').siblings().removeClass('active');
-                    });
-                }
-            });
-        }
-    }
-
-    /*--------------------
-          * Progress Bar
-      ----------------------*/
-    WEA.ProgressBar = function() {
-        $(".skill-bar .skill-bar-in").each(function() {
-            var bottom_object = $(this).offset().top + $(this).outerHeight();
-            var bottom_window = $(window).scrollTop() + $(window).height();
-            var progressWidth = $(this).attr('aria-valuenow') + '%';
-            if (bottom_window > bottom_object) {
-                $(this).css({
-                    width: progressWidth
-                });
-            }
-        });
-    }
-
-    /*--------------------
-        * particles
-    ----------------------*/
-    WEA.particles = function() {
-        if ($("#particles-box").exists()) {
-            loadScript(plugin_track + 'particles/particles.min.js', function() {});
-            loadScript(plugin_track + 'particles/particles-app.js', function() {});
-        }
-    }
-
-
     /*--------------------
         * Type It
     ----------------------*/
@@ -228,27 +129,6 @@
         }
     }
 
-    /*--------------------
-    * Counter JS
-    ----------------------*/
-    WEA.Counter = function() {
-        var counter = jQuery(".counter");
-        var $counter = $('.counter');
-        if (counter.length > 0) {
-            loadScript(plugin_track + 'counter/jquery.countTo.js', function() {
-                $counter.each(function() {
-                    var $elem = $(this);
-                    $elem.appear(function() {
-                        $elem.find('.count').countTo({
-                            speed: 2000,
-                            refreshInterval: 10
-                        });
-                    });
-                });
-            });
-        }
-    }
-
     /* ---------------------------------------------- /*
      * All Functions
     /* ---------------------------------------------- */
@@ -274,26 +154,18 @@
     };
 
     // Window on Load
-    $(window).on("load", function() {
-        WEA.masonry();
-    });
     // Document on Ready
     $(document).ready(function() {
-        WEA.particles(),
-            WEA.HeaderFixd(),
-            WEA.MenuClose(),
-            WEA.Gallery(),
-            WEA.ProgressBar(),
-            WEA.mTypeIt(),
-            WEA.one_page(),
-            WEA.Counter(),
-            WEA.Owl();
+        WEA.HeaderFixd();
+        WEA.MenuClose();
+        WEA.mTypeIt();
+        WEA.one_page();
+        WEA.Owl();
     });
 
     // Document on Scrool
     $(window).on("scroll", function() {
-        WEA.ProgressBar(),
-            WEA.HeaderFixd();
+        WEA.HeaderFixd();
     });
 
     // Window on Resize
@@ -303,36 +175,72 @@
 })(jQuery);
 
 
-function sendForm(e){
-    e.preventDefault();
-    const  name = document.getElementById("name").value;
-    const  email = document.getElementById("email").value;
-    const  subject = document.getElementById("subject").value;
-    const  message = document.getElementById("message").value;
+(function() {
+    var form = document.getElementById('contact-form');
+    if (!form) return;
+    var statusEl = document.getElementById('form-status');
+    var loader = document.getElementById('loader');
+    var btn = document.getElementById('send-btn');
+    var fields = ['name', 'email', 'subject', 'message'];
+    document.getElementById('form-ts').value = Date.now();
 
-    if (name.trim() === '' || email.trim() === '' ||  subject.trim() === '' || message.trim() === ''){
-        alert("All fields are required");
-        return;
+    function showStatus(type, text) {
+        statusEl.className = 'form-status ' + type;
+        statusEl.textContent = text;
     }
-    $('#loader').removeClass('d-none');
 
-    $.ajax({
-        url: 'contact.php',
-        type: 'POST',
-        data: {
-            name: name,
-            email: email,
-            subject: subject,
-            message: message
+    function clearErrors() {
+        statusEl.className = 'form-status d-none';
+        form.querySelectorAll('.field-error').forEach(function(n) { n.remove(); });
+        form.querySelectorAll('.is-invalid').forEach(function(n) { n.classList.remove('is-invalid'); });
+    }
 
-        },
-        success:function(){
-            $('#loader').addClass('d-none');
-            alert("Το μήνυμα σου στάλθηκε. Θα επικοινωνήσουμε μαζί σου το συντομότερο δυνατό!");
-            document.getElementById("contact-form").reset();
+    function validate() {
+        var ok = true;
+        fields.forEach(function(id) {
+            var el = document.getElementById(id);
+            if (el.value.trim() === '' || !el.checkValidity()) {
+                var msg = el.validity.typeMismatch ? 'Please enter a valid email address.'
+                    : el.validity.tooShort ? 'Please write a little more.'
+                    : 'This field is required.';
+                el.classList.add('is-invalid');
+                var err = document.createElement('span');
+                err.className = 'field-error';
+                err.textContent = msg;
+                el.parentNode.appendChild(err);
+                ok = false;
+            }
+        });
+        return ok;
+    }
+
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        clearErrors();
+        if (!validate()) {
+            form.querySelector('.is-invalid').focus();
+            return;
         }
+        btn.disabled = true;
+        loader.classList.remove('d-none');
+
+        fetch(form.getAttribute('action'), {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { 'Accept': 'application/json' }
+        }).then(function(res) {
+            if (!res.ok) throw new Error('HTTP ' + res.status);
+            form.reset();
+            document.getElementById('form-ts').value = Date.now();
+            showStatus('success', 'Thanks! Your message was sent and I will get back to you soon.');
+        }).catch(function() {
+            showStatus('error', 'Sorry, your message could not be sent. Please try again or email me directly.');
+        }).finally(function() {
+            loader.classList.add('d-none');
+            btn.disabled = false;
+        });
     });
-}
+})();
 
 function hideBanner() {
     document.getElementById('cookie-consent-banner').style.display = 'none';
